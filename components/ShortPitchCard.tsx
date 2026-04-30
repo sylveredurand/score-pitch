@@ -1,0 +1,1 @@
+export function ShortPitchCard({ text }: { text: string }) { return <section className="rounded-2xl bg-white p-6 shadow-sm"><h3 className="font-semibold">Version elevator pitch (120 mots max)</h3><p className="mt-3 text-slate-700">{text}</p></section>; }

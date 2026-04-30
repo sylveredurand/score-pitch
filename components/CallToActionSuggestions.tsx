@@ -1,0 +1,1 @@
+export function CallToActionSuggestions({ cta }: { cta: {meeting:string;curiosity:string;conversation:string} }) { return <section className="rounded-2xl bg-white p-6 shadow-sm"><h3 className="font-semibold">Appels à l’action recommandés</h3><ul className="mt-3 list-disc pl-6"><li>{cta.meeting}</li><li>{cta.curiosity}</li><li>{cta.conversation}</li></ul></section>; }
