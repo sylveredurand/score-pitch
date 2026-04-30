@@ -1,0 +1,1 @@
+export function StrengthsList({ items }: { items: string[] }) { return <section className="rounded-2xl bg-white p-6 shadow-sm"><h3 className="font-semibold">3 forces du pitch</h3><ul className="mt-3 list-disc pl-6">{items.slice(0,3).map((i)=><li key={i}>{i}</li>)}</ul></section>; }

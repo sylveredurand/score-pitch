@@ -1,0 +1,1 @@
+export function DiagnosisCard({ verdict }: { verdict: string }) { return <section className="rounded-2xl bg-white p-6 shadow-sm"><h3 className="font-semibold">Verdict immédiat</h3><p className="mt-2 text-slate-700">{verdict}</p></section>; }

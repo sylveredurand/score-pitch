@@ -1,0 +1,1 @@
+export function AnalyzeButton({ loading }: { loading: boolean }) { return <button type="submit" disabled={loading} className="rounded-xl bg-brand px-6 py-3 font-semibold text-white disabled:opacity-60">{loading ? "Analyse en cours..." : "Analyser mon pitch"}</button>; }

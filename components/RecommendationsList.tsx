@@ -1,0 +1,1 @@
+export function RecommendationsList({ items }: { items: string[] }) { return <section className="rounded-2xl bg-white p-6 shadow-sm"><h3 className="font-semibold">Recommandations concrètes</h3><ul className="mt-3 list-disc pl-6">{items.map((i)=><li key={i}>{i}</li>)}</ul></section>; }
